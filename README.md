@@ -66,7 +66,7 @@ To ensure all packages are up to date, run:
 
 ### 1) Target Molecule Preparation
 - Remove Solvents
-- Remove nucleic acid
+- Remove nucleic acid [If the protein has dna/rna in it]
 - Add Hydrogen Atoms
 - Add Kollman Charges
 - Merge Non-polar hydrogen atoms
