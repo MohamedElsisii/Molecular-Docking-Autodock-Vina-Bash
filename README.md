@@ -66,7 +66,6 @@ To ensure all packages are up to date, run:
 
 ### 1) Target Molecule Preparation
 - Remove Solvents
-- Remove nucleic acid [If the protein has dna/rna in it]
 - Add Hydrogen Atoms
 - Add Kollman Charges
 - Merge Non-polar hydrogen atoms
@@ -77,16 +76,14 @@ To ensure all packages are up to date, run:
 2. Run the following commands in PyMOL:
 
         remove solvent
-        select dna, polymer.nucleic
-        remove dna
         h_add
        
 3. Save the protein and ligand in PDBQT format. 
 
 **On MGLTools:**
 
-1. Add Kollman charges: Edit >> Charges >> Compute Kollman.
-2. Merge non-polar hydrogen atoms: Edit >> Merge >> Non-polar.
+1. Add Kollman charges: Edit - Charges - Compute Kollman.
+2. Merge non-polar hydrogen atoms: Edit - Merge - Non-polar.
 3. Save the protein in PDBQT format.
 
 ### 2) Ligands Preparation
