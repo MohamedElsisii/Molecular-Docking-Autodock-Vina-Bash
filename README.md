@@ -116,21 +116,26 @@ Example:
         y_size=123
         z_size=123
 
-**Note: Do not forget to remove the ligand from the protein structure before docking of the structure is co-crystallized** 
+**Note: Do not forget to remove the ligand from the protein structure before docking if the structure is co-crystallized** 
 
 ## Required Files for Docking.sh
 
 Before running the script, ensure you have the following files prepared:
 
 1- Target Molecule in .pdbqt format
+
 2- Ligands in .pdbqt format
+
 3- conf.txt (Configuration file)
 
 ## Running the Docking Script
 
 The script requires the following user inputs:
+
 1- The folder path where AutoDock Vina was downloaded.
+
 2- The folder path where the conf.txt file is located.
+
 3- The folder path containing the ligands in .pdbqt format.
 
 Run the script using:
